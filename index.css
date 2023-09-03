@@ -1,0 +1,266 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-size: 10px;
+  background-color: #242424;
+  font-family: cursive;
+  font-weight: 900;
+  
+}
+ 
+.animated_logo {
+  display: flex;
+ 
+  cursor: default;
+  margin-left: 30px;
+  font-size: 3em;
+  font-family: cursive;
+  color: #eed071;
+}
+.link-logo {
+  display: flex;
+  text-decoration: none;
+  color: #eed071;
+}
+.letter {
+  transform: translateX(0);
+  transition: 0.2s;
+}
+.letter:hover {
+  transform: translateY(-10px);
+  background: -webkit-linear-gradient(
+    120deg,
+    hsl(19, 90%, 52%),
+    hsl(56, 100%, 50%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ 
+.advis {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.title-advis {
+  filter: drop-shadow(0px 0px 5px #ffb300);
+  font-size: 3em;
+  color: #efbe07;
+  margin: 20px;
+}
+.advis-box {
+  margin: 20px;
+  border: solid #efbe07 1px;
+  border-radius: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 4em;
+  color: #eed071;
+}
+.advis-box img {
+  width: 50px;
+}
+.some-advis {
+
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+}
+ 
+.advis-box:hover >img {
+  filter: drop-shadow(0px 0px 1px #ff8c00);
+ 
+}
+.one-advis {
+  margin-top: 40px;
+  font-size: 0.5em;
+}
+.main {
+  width: 100%;
+  margin-top: 100px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.unevir {
+ 
+  margin: 20px;
+  background-color: #242424;
+  border: solid #efbe07 5px;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: start;
+  border-radius: 50px 10px 10px 10px;
+  padding-top: 40px;
+}
+.logo-unv {
+  border: solid #efbe07 3px;
+  border-radius: 50px 0px;
+  position: relative;
+  left: -25px;
+  top: -43px;
+  transition: 1s;
+}
+.titel {
+  filter: drop-shadow(0px 0px 3px #ff7b10);
+  text-align: center;
+  color: #efbe07;
+  width: 50%;
+  height: 50%;
+  font-size: 2.5em;
+  position: relative;
+
+  top: -10px;
+}
+.button-nuv {
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-size: 2em;
+  position: relative;
+  top: 90px;
+  border: solid #efbe07 1px;
+}
+.button-nuv a {
+  color: #eed071;
+  text-decoration: none;
+}
+.infor {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: -90px;
+  right: -55px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.infor p {
+  font-size: 2em;
+  color: #eed071;
+}
+
+
+.up.show{
+  right: 0px;
+  transition: 0.2s;
+}
+.clyat{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  margin-top: 50px;
+}
+.box-clya{
+  width: 200px;
+  height: 130px;
+  padding: 20px;
+  margin: 20px;
+  border: #efbe07 3px solid;
+  border-radius: 50px 0;
+  text-align: center;
+ 
+}
+.hh11{
+  width: 100%;
+  text-align: center;
+  font-size: 5em;
+  color: #efbe07;
+  margin-bottom: 40px; 
+  filter: drop-shadow(0px 0px 5px #ffb300);
+}
+.box-clya h3{
+  font-size: 2em;
+    color: #efbe07;
+
+}
+.box-clya a{
+  text-decoration: none;
+  position: relative;
+  top: 30px;
+  border: #efbe07 1px solid;
+  padding: 8px ;
+  border-radius:  20px 0px    ;
+  font-size: 1.7em;
+color: #ffc800;
+background-color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 8px;
+  }
+  .advis-box {
+    padding: 15px;
+  }
+  .main {
+    margin-top: 20px;
+  }
+  .unevir {
+    width: 230px;
+    height: 230px;
+  }
+  .logo-unv {
+    width: 80px;
+    height: 80px;
+    left: -15px;
+  }
+  .button-nuv {
+    position: relative;
+    top: 50px;
+  }
+  .infor {
+    width: 100%;
+    height: 100px;
+    right: -20px;
+  }
+  .titel{
+    position: relative;
+    top: -40px;
+  }
+  #close{
+    font-size: 20px;
+    top: -40px;
+    padding: 2px;  
+  }
+   
+}

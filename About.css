@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .x{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-20%);
+  opacity:0.5;
+  }
+  body {
+    background-color: #242424;
+    font-size: 10px;
+    font-family: cursive;
+    font-weight: 900;
+  }
+  .animated_logo {
+    display: flex;
+    cursor: default;
+    margin-left: 30px;
+    font-size: 3em;
+    font-family: cursive;
+    color: #eed071;
+  }
+  .link-logo {
+    display: flex;
+    text-decoration: none;
+    color: #eed071;
+  }
+  .letter {
+    transform: translateX(0);
+    transition: 0.2s;
+  }
+  .letter:hover {
+    transform: translateY(-10px);
+    background: -webkit-linear-gradient(
+      120deg,
+      hsl(19, 90%, 52%),
+      hsl(56, 100%, 50%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    margin-top: 30px;
+  }
+  .main h1 {
+    margin-top: 30px;
+    font-size: 6em;
+    color: #efbe07;
+    filter: drop-shadow(0px 0px 10px #ffae00);
+  
+  }
+  .logo-coment {
+    width: 70%;
+   
+    margin: 30px;
+   
+  }
+  .logo-coment p {
+    text-align: center;
+    font-size: 3.5em;
+    color: #efbe07;
+    filter: drop-shadow(0px 0px 2px #000000);
+  
+  }
+  .main a {
+    font-size: 3em;
+    padding: 10px;
+    width: 200px;
+    border: #eed071 1px solid;
+    text-align: center;
+    text-decoration: none;
+    color: #efbe07;
+    border-radius: 30px;
+  }
+  .main a:hover {
+    color: #242424;
+    background-color: #efbe07;
+    filter: drop-shadow(0px 0px 20px  #fdc600);
+  
+  }
+  .line {
+    height: 3px;
+    width: 60%;
+    background-color: #efbe07;
+    margin: 20px 200px;
+  }
+  .clya {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+  }
+  .clya .title-1 {
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 5em;
+    color: #efbe07;
+    margin-bottom: 30px;
+    filter: drop-shadow(0px 0px 5px #ffae00);
+  
+  }
+  .clya .clya-box {
+    width: 200px;
+    height: 200px;
+    border: #efbe07 3px solid;
+    margin: 10px;
+    border-radius: 50px 50px 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .clya .clya-box img {
+    width: 200px;
+    height: 150px;
+    border-radius: 50px 50px 0px 0px;
+    position: relative;
+    top: -10px;
+  }
+  .clya .clya-box .title-2 {
+    font-size: 2em;
+    color: #efbe07;
+  }
+  
+  .mahad {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+  }
+  .mahad .title-1 {
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 5em;
+    color: #efbe07;
+    margin-bottom: 30px;
+    filter: drop-shadow(0px 0px 5px #ffae00);
+  
+  }
+  .mahad-box {
+    width: 200px;
+    height: 200px;
+    border: #efbe07 3px solid;
+    margin: 10px;
+    border-radius: 50px 50px 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .mahad img {
+    width: 200px;
+    height: 150px;
+    border-radius: 50px 50px 0px 0px;
+    position: relative;
+    top: -10px;
+  }
+  .mahad .mahad-box .title-2 {
+    font-size: 2em;
+    color: #efbe07;
+  }
+  @media screen and (max-width: 900px) {
+    .logo-coment p {
+      font-size: 30px;
+    }
+    .main h1 {
+      font-size: 40px;
+    }
+    .logo-coment {
+      width: 90%;
+      background-size: 250px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .logo-coment p {
+      font-size: 25px;
+    }
+  
+  
+    .logo-coment {
+      width: 90%;
+      background-size: 250px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .logo-coment p {
+      font-size: 20px;
+    }
+    .main h1 {
+      font-size: 30px;
+    }
+    .logo-coment {
+      width: 90%;
+      background-size: 200px;
+    }
+    .clya .title-1 {
+      font-size: 30px;
+    }
+    .main a {
+      font-size: 20px;
+      padding: 5px;
+      width: 150px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .logo-coment p {
+      font-size: 15px;
+    }
+  
+    .logo-coment {
+      width: 90%;
+      background-size: 150px;
+    }
+  
+    .main a {
+      font-size: 15px;
+      padding: 5px;
+      width: 100px;
+    }
+  }
+  
+  .up.show {
+    right: 0px;
+    transition: 0.2s;
+  }
+  
